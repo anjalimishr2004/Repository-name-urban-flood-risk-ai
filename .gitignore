@@ -1,0 +1,42 @@
+﻿# ============================================================
+# Urban Flood Risk AI — .gitignore
+# ============================================================
+
+# --- SECRETS — NEVER COMMIT ---
+.streamlit/secrets.toml
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# --- Virtual environment ---
+venv/
+env/
+.venv/
+ENV/
+
+# --- Byte-compiled / optimised ---
+*.pyc
+
+# --- Distribution / packaging ---
+dist/
+build/
+*.egg-info/
+
+# --- IDE and editor files ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Backup files created during development ---
+app_backup.py
+app copy.py
